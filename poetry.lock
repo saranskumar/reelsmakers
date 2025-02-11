@@ -390,21 +390,25 @@ files = [
 
 [[package]]
 name = "elevenlabs"
-version = "1.3.1"
+version = "1.50.7"
 description = ""
 optional = false
 python-versions = "<4.0,>=3.8"
 files = [
-    {file = "elevenlabs-1.3.1-py3-none-any.whl", hash = "sha256:96cb48d3527393b0f56fb9c6a26ad6520e2999a4c1ac9ca2b525ab7a26ea7342"},
-    {file = "elevenlabs-1.3.1.tar.gz", hash = "sha256:23df9b48960bc1d48b9fe13a5dad74144a83ce5ed83708dd7dcf6180f44ce697"},
+    {file = "elevenlabs-1.50.7-py3-none-any.whl", hash = "sha256:3b75a28e6e81d677d2525f51713167f521bc0dab062984d7a3d1e29411ae424a"},
+    {file = "elevenlabs-1.50.7.tar.gz", hash = "sha256:07526ef7a194104e1c91e22ba65b55d061b7a1f7d310170915258ae32fde3467"},
 ]
 
 [package.dependencies]
 httpx = ">=0.21.2"
 pydantic = ">=1.9.2"
+pydantic-core = ">=2.18.2,<3.0.0"
 requests = ">=2.20"
 typing_extensions = ">=4.0.0"
 websockets = ">=11.0"
+
+[package.extras]
+pyaudio = ["pyaudio (>=0.2.14)"]
 
 [[package]]
 name = "frozenlist"
@@ -2868,4 +2872,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "628e70e3ae60d0e942d7c5597415445656cfaf77f3e84bbfc3f9856728620028"
+content-hash = "ee31e0ca8072ec540ce1abaaaf84168427183e4f7a5fe2c34df987d6727852dc"
